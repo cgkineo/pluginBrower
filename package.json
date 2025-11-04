@@ -1,5 +1,18 @@
 {
+  "name": "pluginBrower",
   "version": "0.1.0",
+  "displayName": "Plugin Browser",
+  "extension": "pluginBrowser",
+  "description": "An extension for browsing and managing plugins.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cgkineo/pluginBrower.git"
+  },
+  "homepage": "https://github.com/cgkineo/pluginBrower",
+  "issues": "https://github.com/cgkineo/pluginBrower/issues/",
+  "main": "/js/index.js",
+  "targetAttribute": "_pluginBrowser",
+  "license": "GPL-3.0",
   "private": true,
   "devDependencies": {
     "@semantic-release/commit-analyzer": "^9.0.2",
